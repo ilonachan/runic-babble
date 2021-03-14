@@ -145,6 +145,7 @@ def from_file(path, type='yaml'):
 
 
 def from_directory(path, type=None, filter=r'.*\.yaml'):
+    log.info(f'Reading config from directory {path}')
     for f in os.listdir(path):
         t = type or 'yaml'
         p = os.path.join(path, f)
