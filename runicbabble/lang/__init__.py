@@ -35,8 +35,8 @@ class Language(ABC):
         msg = self.format(message)
 
         font = ImageFont.truetype(path, fontsize)
-        bbox = font.getbbox(msg)
-        img = Image.new("RGBA", (bbox[2], bbox[3]), (0, 0, 0, 0))
+        size = font.getsize_multiline(msg)
+        img = Image.new("RGBA", size, (0, 0, 0, 0))
         draw = ImageDraw.Draw(img)
 
         draw.text((0, 0), msg, (255, 255, 255), font=font)
