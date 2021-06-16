@@ -1,3 +1,5 @@
 PyYAML~=5.4.1
-pillow~=8.1.2
-discord.py~=1.6.0
+pillow~=8.2.0
+discord.py~=1.7.3
+discord-py-slash-command
+discord

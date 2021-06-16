@@ -1,2 +1,3 @@
 discord:
   permissions: 2684414016
+  sync_slash: True

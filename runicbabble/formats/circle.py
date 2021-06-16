@@ -211,7 +211,7 @@ def draw_circle_separator(draw, base_circle, style, color):
 
 
 def main():
-    msg1 = '#pogtSemp'
+    msg1 = '#hey dok'
     color = (100, 200, 255)
     font = ImageFont.truetype("../../config/res/fonts/Madouji", 60)
     
@@ -220,9 +220,9 @@ def main():
         RingSeparator('m', color),
         TextRing(msg1, font.font_variant(size=120), color),
         RingSeparator('ss', color),
-        TextRing('ay oúnli meyd Vys bikOz sympI eskd mi tu, so bleym hwr. ', font.font_variant(size=30), color),
+        TextRing('ayv ymprUvd may progrem, so naó yt dZenereýtz VIz swrklz Iseli. ', font.font_variant(size=30), color),
         RingSeparator('m', color),
-        TextRing('Vys yz kaynda fan. ', font.font_variant(size=60), color),
+        TextRing('Vetz pryti nyfti ay úud sey. ', font.font_variant(size=60), color),
         RingSeparator('sl', color)
     ])
     

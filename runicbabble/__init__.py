@@ -15,7 +15,8 @@ runicbabble.config.from_directory('config')
 # read environment variables
 runicbabble.config.from_env_mapping({
     'discord': {
-        'bot_token': 'BOT_TOKEN'
+        'bot_token': 'BOT_TOKEN',
+        'sync_slash': 'SYNC_SLASH'
     },
     'db': {
         'main': {
